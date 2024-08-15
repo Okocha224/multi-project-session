@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat - Pokemon-Like Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="battle-info">
+            <div>
+                <h2 id="player-name">Player</h2>
+                <p>HP: <span id="player-hp">100</span></p>
+            </div>
+            <div>
+                <h2 id="opponent-name">Opponent</h2>
+                <p>HP: <span id="opponent-hp">100</span></p>
+            </div>
+        </div>
+
+        <div id="skills">
+            <button onclick="playerAttack('fire')">Feu</button>
+            <button onclick="playerAttack('water')">Eau</button>
+            <button onclick="playerAttack('grass')">Herbe</button>
+        </div>
+
+        <div id="battle-log">
+            <h3>Battle Log</h3>
+            <ul id="log"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

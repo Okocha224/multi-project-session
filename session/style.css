@@ -1,0 +1,152 @@
+/* Styles généraux */
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3366cc;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.main-nav {
+    background-color: #2a4b8d;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.infobox {
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #a2a9b1;
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 250px;
+    font-size: 0.9em;
+}
+
+.infobox-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.infobox table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infobox th, .infobox td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.infobox th {
+    background-color: #cedff2;
+}
+
+article h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+article h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+article figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+article figcaption {
+    font-size: 0.9em;
+    color: #666;
+}
+
+aside .sidebar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #a2a9b1;
+    margin-top: 20px;
+}
+
+aside .sidebar h2 {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+}
+
+aside .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside .sidebar ul li {
+    margin-bottom: 10px;
+}
+
+aside .sidebar ul li a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #202122;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #4e72b8;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .infobox {
+        float: none;
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+}
